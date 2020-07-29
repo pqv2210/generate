@@ -1,11 +1,20 @@
-# Generate Component and Screen Tool:
+# Generate Component and Screen:
+For React Native project use Typescript. :smile:
+1. Clone prject.
+2. Run _yarn_
+3. Run _yarn link_
+4. Run _generate screen <screen_name>_ to generate a .tsx file in screens folder, import in stack-navigation and add screen to stack.
+5. Run _generate component <component_name>_ to generate a .tsx file in component folder.
 
-Clone project and:
+Project structure:
+src
+|--...
+|--components
+|  |--index.ts
+|--navigation
+|  |--stack-navigation.tsx
+|--screens
+|  |--index.ts
+|--...
 
-1. run yarn
-2. run yarn link
-3. run generate screen NameScreen to generate Screen
-4. run generate component NameComponent to generate Component
-
-To custom for an other project, edit Common.js file
-# generate
+To custom for an other project, edit Common.js file.
